@@ -1,0 +1,3 @@
+"""
+HardwareAI Claude Code plugin.
+"""

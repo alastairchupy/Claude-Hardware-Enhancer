@@ -1,3 +1,37 @@
+Metadata-Version: 2.4
+Name: hardware-ai
+Version: 0.1.0
+Summary: Hardware intelligence layer for AI coding assistants - GitHub Copilot for the physical world
+Author: HardwareAI Contributors
+License: MIT
+Project-URL: Homepage, https://github.com/hardware-ai/hardware-ai
+Project-URL: Documentation, https://hardware-ai.readthedocs.io
+Project-URL: Repository, https://github.com/hardware-ai/hardware-ai
+Project-URL: Issues, https://github.com/hardware-ai/hardware-ai/issues
+Keywords: hardware,embedded,esp32,arduino,electronics,firmware,iot,robotics
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Hardware
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: typer>=0.12.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: pydantic>=2.5.0
+Requires-Dist: pyyaml>=6.0.1
+Requires-Dist: click>=8.1.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: black>=24.0.0; extra == "dev"
+Requires-Dist: ruff>=0.2.0; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+
 # HardwareAI
 
 **Cloud-based hardware simulation and validation for AI coding assistants.**
@@ -67,10 +101,6 @@ User Request → Claude Code → HardwareAI Plugin → Simulation Engine
 **Motors:** MY6812, NEMA17, 28BYJ-48, JGA25
 
 **Sensors:** OLED SSD1306, BMP280, MPU6050, HC-SR04, DHT22
-
-## Claude Code Integration
-
-Copy `.claude.example/settings.json` to `.claude/settings.json`, then restart Claude Code to enable the MCP server.
 
 ## Documentation
 

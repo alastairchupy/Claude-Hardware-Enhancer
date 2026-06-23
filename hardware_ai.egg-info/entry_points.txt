@@ -1,0 +1,2 @@
+[console_scripts]
+hardware-ai = hardware_ai.cli.commands:app
