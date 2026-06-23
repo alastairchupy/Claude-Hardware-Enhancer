@@ -6,13 +6,13 @@ HardwareAI acts as a hardware verification engine between Claude and physical el
 
 ## Features
 
-- 🔌 **Circuit Simulation** — Simulate microcontrollers, motors, drivers, sensors, and power supplies
-- ⚡ **Electrical Validation** — Voltage compatibility, current limits, GPIO capabilities
-- 🎯 **GPIO Checking** — Verify pins support required capabilities (PWM, ADC, I2C, SPI)
-- 📊 **Component Database** — Pre-loaded specs for ESP32, Arduino, Raspberry Pi Pico, motors, drivers, sensors
-- 🖥️ **CLI** — `hardware-ai` command-line tool for manual testing
-- 🔌 **Claude Code MCP** — HardwareAI tools available directly in Claude Code conversations
-- ☁️ **Cloud-Ready** — Local-first architecture with optional cloud service upgrade
+-  **Circuit Simulation** — Simulate microcontrollers, motors, drivers, sensors, and power supplies
+-  **Electrical Validation** — Voltage compatibility, current limits, GPIO capabilities
+-  **GPIO Checking** — Verify pins support required capabilities (PWM, ADC, I2C, SPI)
+-  **Component Database** — Pre-loaded specs for ESP32, Arduino, Raspberry Pi Pico, motors, drivers, sensors
+-  **CLI** — `hardware-ai` command-line tool for manual testing
+-  **Claude Code MCP** — HardwareAI tools available directly in Claude Code conversations
+-  **Cloud-Ready** — Local-first architecture with optional cloud service upgrade
 
 ## Quick Start
 
@@ -38,9 +38,9 @@ hardware-ai components --list
 ```
 $ hardware-ai simulate "ESP32 + HW-039 + MY6812 + 12V"
 
-✅ RESULT: PASS with warnings
+RESULT: PASS with warnings
 
-⚠️  No flyback protection detected
+No flyback protection detected
    → Add flyback diode across motor terminals
 ```
 
@@ -48,14 +48,14 @@ $ hardware-ai simulate "ESP32 + HW-039 + MY6812 + 12V"
 
 ```
 User Request → Claude Code → HardwareAI Plugin → Simulation Engine
-                                                   ↓
-                                             Component Database
-                                                   ↓
-                                           Validation Results
-                                                   ↓
-                                        Claude Code Correction
-                                                   ↓
-                                            Final Firmware
+                                                          ↓
+                                                 Component Database
+                                                          ↓
+                                                 Validation Results
+                                                          ↓
+                                                 Claude Code Correction
+                                                          ↓
+                                                 Final Firmware
 ```
 
 ## Supported Hardware
