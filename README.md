@@ -1,4 +1,4 @@
-# HardwareAI
+# Claude Hardware Enhancer
 
 **Cloud-based hardware simulation and validation for AI coding assistants.**
 
