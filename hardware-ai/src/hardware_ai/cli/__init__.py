@@ -1,3 +1,0 @@
-"""
-HardwareAI CLI.
-"""
